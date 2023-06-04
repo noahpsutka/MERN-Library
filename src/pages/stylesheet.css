@@ -1,0 +1,27 @@
+body {
+    background-color: #282c34;
+}
+
+#nav-bar {
+    color: white;
+
+    margin-left: 32%;
+    padding: 10px;
+}
+
+#flex-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#links {
+    background-color: rgb(155, 196, 196);
+    font-size: 24px;
+    border: 3px solid yellow;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}

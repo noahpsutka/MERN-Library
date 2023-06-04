@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.Check {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #282c34;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+button {
+  margin: 5px;
+}
+
+#header,
+#footer {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+#flexbox {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  display: flex;
+
+}
+
+#left-box,
+#right-box {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+}
+
+#list-all-books {
+  background-color: rgb(155, 196, 196);
+  color: black;
+  text-align: start;
+  border: 4px;
+  border-style: solid;
+  border-color: yellow;
+  margin: 3%;
+  padding: 1%;
+}
