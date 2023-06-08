@@ -1,7 +1,7 @@
-# MongoDB-Library
+# MERN-Library
 
 ## Project Info
-The following project was created using JavaScript, NodeJS, MongoDB, and React 
+The following project was created using HTML, CSS, JavaScript, MongoDB, Express, React and Node.js 
 
 
 ## Steps to demo repo
